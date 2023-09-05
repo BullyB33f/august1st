@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AUGUST 1ST</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styleaugust.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <header id="head">
+           <nav>
+            <img src="logo.png" alt="false logo for rental company">
+            <ul>
+                
+                <li><a href="#"><i class="fa fa-group"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="#"><i class="fa fa-question-circle-o"></i></a></li>
+
+            </ul>
+           </nav>
+           <div id="section0">
+           <img src="pngegg4.png" id="carimage" >
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et maxime neque laborum corrupti incidunt similique ex possimus quaerat? Dolor, atque aut est commodi inventore reprehenderit harum ipsam sed numquam rerum.</p>
+            <a href="#subsection1" id="button01"><button>VIEW FLEET</button></a> 
+            <a href="#subsection1" id="button02"><button>RENT A RIDE</button></a> 
+
+           </div>
+                
+        </header>
+        <div id="section1">
+            <h2 id="rentalshead">RENTALS</h2>
+            <div id="form1">
+                <div id="input1" class="inputbox dates">
+                    <label for="pickup"> PICK UP DATE</label>
+                <input type="date" id="pickup" class="datebox">
+                </div>
+                <div id="input2" class="inputbox">
+                <label for="dropoff"> DROP OFF DATE</label>
+                <input type="date" id="dropoff" class="datebox">
+                
+                </div>
+                <div id="input3">
+                    <div id="selectvehicle">SELECT VEHICLE</div>
+                    <div id="selectedvehicleslot" onclick="displayOptions()" ><span id="selectedvehicle"><i>choose a vehicle</i></span></div>
+                        <div id="optionsbox">
+                        <div id="landcruiser" class="options" onclick="landcruiser()">Toyota Land Cruiser</div>
+                        <div id="hilux" class="options" onclick="hilux()"> Toyota Hilux</div>
+                        <div id="q8" class="options" onclick="q8()">Audi q8</div>
+                        <div id="gle" class="options" onclick="gle()">Mercedes-Benz Gle-Class</div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="subsection0">
+                <img src="nocar.png" alt="no car selected">
+            </div>
+            <div id="subsection1">
+                <div id="subimagebox">
+                    <img src="landcruiser.jpg" class="subimages">
+                    <img src="landcruiser1.jpg" class="subimages">
+                    <img src="landcruiser2.jpg" class="subimages">
+                    <img src="landcruiser3.jpg" class="subimages">
+                </div>
+                <img src="landcruiser.jpg" alt="2020 toyota land cruiser" id="vehiclephoto" onclick="getoutput()">
+                <h2 id="vehicletitle">Toyota Land Cruiser</h2>
+                <span id="rentalprice">To be calculated....</span>
+                <span id="vehicleinfo">The 2020 Toyota Land Cruiser is a full-size luxury SUV that can seat up to eight in three rows. It’s powered by a 381-horsepower, 5.7-liter V-8 engine that works with an eight-speed automatic transmission. Four-wheel drive is standard, and competitors include the GMC Yukon Denali, Mercedes-Benz GLS 450 and Infiniti QX80.</span>
+                <button id="available"> Currently Available</button>
+            </div>
+        </div>
+
+       
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>

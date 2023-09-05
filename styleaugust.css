@@ -1,0 +1,259 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300;400;500;600&family=Fugaz+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300;400;500;600&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to bottom, #5f5e5e, #c5c4c2, white);
+    height: 100vh;
+}
+
+nav img{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: -25rem;
+    top: 0.5rem;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    right: 13rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 0px #010101;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 40%;
+    font-size: 30px;
+}
+
+#section0 img{
+    width: 50%;
+  margin: 0 5%;
+  position: absolute;
+  top: 5rem;
+  height: 65%;
+  left: 3rem;
+}
+#section0 h2{
+    margin: 2% 35%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#section0 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 90px;
+    margin: 2% 5%;
+    width: 400px;
+    right: 3rem;
+    color: aliceblue;
+    top: 15%;
+    text-shadow: 1px 1px 0px #010101;
+}
+#section0 button{
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: 1s;
+    
+}
+#section0 button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 100, 171);
+}
+#button01{
+    position: absolute;
+    bottom: 45%;
+    right: 25rem;
+    
+}
+#button02{
+    position: absolute;
+    bottom: 45%;
+    right: 15rem;
+}
+
+#section1{
+    margin: 10% 0;
+    height: 90vh;
+    width: 70vh;
+}
+#rentalshead{
+    position: absolute;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    top: 85%;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+#form1{
+    margin-top: 5%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+}
+
+.inputbox{
+    margin: 0 5%;
+}
+
+label, input{
+    display: block;
+}
+
+input[type=date]{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+select{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;      
+}
+#input3{
+    width: 400px;
+}
+#selectedvehicleslot{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 170px;
+    z-index: 1;
+}
+#selectedvehicleslot:hover {
+    cursor: pointer;
+}
+
+#optionsbox{
+    background-color: lightgray;
+    border: 1px solid black;
+    z-index: 999;
+}
+.options:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#vehicle{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+#vehiclephoto {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 15rem;
+    top: 45rem;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+
+#subsection0 img{
+    width: 400px;
+    position: absolute;
+    left: 40rem;
+    top: 55rem;
+    z-index: -1;
+}
+#subsection1{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+#vehicletitle{
+    position: absolute;
+    left: 45rem;
+    top: 45rem;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+    width: 200px;
+}
+#rentalprice{
+    position: absolute;
+    left: 45rem;
+    top: 49rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+    width: 300px;
+
+}
+#vehicleinfo{
+    position: absolute;
+    left: 45rem;
+    top: 51rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+}
+#available{
+    position: absolute;
+    left: 45rem;
+    top: 65rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;}
+#subimagebox{
+position: absolute;
+left: 6rem;
+top: 44rem;
+}
+.subimages{
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.subimages:hover {
+    cursor: pointer;
+}
+
+#subimagebox .selectedbox{
+    border: 2px solid red;
+
+}
+
+
+
